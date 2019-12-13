@@ -1,11 +1,46 @@
-video {
-  background-color: #ddd;
-  border-radius: 7px;
-  margin: 10px 0px 0px 10px;
-  width: 320px;
-  height: 240px;
+body{
+  font-family: sans-serif;
 }
-button {
-  margin: 5px 0px 0px 10px !important;
-  width: 654px;
+
+#container{
+  position:relative;
+  background:black;
+  height: 100%;
+  padding:0 auto; 
+  margin: 0;
+}
+#yourVideo{
+  position: absolute;
+  right:0;
+  bottom:0;
+  width : 30%;
+  height: 30%;
+
+  z-index: 1;
+}
+
+#friendsVideo{
+  height: 100%;
+  width:100%;
+  position: absolute;
+  z-index: 0;
+}
+
+a{
+  background: rgba(3,59,57,0.9);
+  border-radius: 5px;
+  color: white;
+  align-items: center;
+  align-content: center;
+  text-decoration: none;
+  padding: 4% 4%;
+  left: 45%;
+  top: 80%;
+  position: absolute;
+  font-size: large;
+}
+a:hover{
+  background: rgba(3, 59, 57, 0.7);
+  text-decoration: none;
+  color:white;
 }
