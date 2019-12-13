@@ -1,0 +1,20 @@
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.6.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDCt4oBgUQllDIrgt2guxWV9gJnqOWjQLE",
+    authDomain: "videochat-ddb1d.firebaseapp.com",
+    databaseURL: "https://videochat-ddb1d.firebaseio.com",
+    projectId: "videochat-ddb1d",
+    storageBucket: "videochat-ddb1d.appspot.com",
+    messagingSenderId: "218061355653",
+    appId: "1:218061355653:web:fddae7cbca33d9504a47ec"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
