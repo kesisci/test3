@@ -44,7 +44,7 @@ function readMessage(data) {
 database.on('child_added', readMessage);
 
 function showMyFace() {
-  navigator.mediaDevices.getUserMedia({audio:true, video:{"frameRate": "min": "15"}}})
+  navigator.mediaDevices.getUserMedia({audio:true, video:{"frameRate": "min": "15"}})
     .then(stream => yourVideo.srcObject = stream)
     .then(stream => pc.addStream(stream));
 }
